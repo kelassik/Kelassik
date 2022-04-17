@@ -13,6 +13,14 @@
 		C69F658B2807428E00097398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69F65892807428E00097398 /* Main.storyboard */; };
 		C69F658D2807428F00097398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69F658C2807428F00097398 /* Assets.xcassets */; };
 		C69F65902807428F00097398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69F658E2807428F00097398 /* LaunchScreen.storyboard */; };
+		C69F65982807506000097398 /* BerandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F65972807506000097398 /* BerandaViewController.swift */; };
+		C69F659A2807509300097398 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F65992807509300097398 /* LoginViewController.swift */; };
+		C69F659C2808205300097398 /* FormStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F659B2808205200097398 /* FormStudentViewController.swift */; };
+		C6ABF61B280BF485002FE62D /* RegisterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABF61A280BF485002FE62D /* RegisterEmailViewController.swift */; };
+		C6ABF61E280C654C002FE62D /* UItextfieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ABF61C280C654C002FE62D /* UItextfieldViewController.swift */; };
+		C6ABF61F280C654C002FE62D /* UItextfieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6ABF61D280C654C002FE62D /* UItextfieldViewController.xib */; };
+		C6BB3386280AD05F004C0E77 /* FormTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB3385280AD05F004C0E77 /* FormTeacherViewController.swift */; };
+		C6BB3388280B3DAD004C0E77 /* RegisterPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BB3387280B3DAD004C0E77 /* RegisterPhoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		C69F658C2807428F00097398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69F658F2807428F00097398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69F65912807428F00097398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69F65972807506000097398 /* BerandaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerandaViewController.swift; sourceTree = "<group>"; };
+		C69F65992807509300097398 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C69F659B2808205200097398 /* FormStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormStudentViewController.swift; sourceTree = "<group>"; };
+		C6ABF61A280BF485002FE62D /* RegisterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEmailViewController.swift; sourceTree = "<group>"; };
+		C6ABF61C280C654C002FE62D /* UItextfieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItextfieldViewController.swift; sourceTree = "<group>"; };
+		C6ABF61D280C654C002FE62D /* UItextfieldViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UItextfieldViewController.xib; sourceTree = "<group>"; };
+		C6BB3385280AD05F004C0E77 /* FormTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTeacherViewController.swift; sourceTree = "<group>"; };
+		C6BB3387280B3DAD004C0E77 /* RegisterPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPhoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				C69F65832807428E00097398 /* AppDelegate.swift */,
 				C69F65852807428E00097398 /* SceneDelegate.swift */,
 				C69F65872807428E00097398 /* ViewController.swift */,
+				C69F65972807506000097398 /* BerandaViewController.swift */,
+				C69F65992807509300097398 /* LoginViewController.swift */,
+				C69F659B2808205200097398 /* FormStudentViewController.swift */,
+				C6BB3385280AD05F004C0E77 /* FormTeacherViewController.swift */,
+				C6BB3387280B3DAD004C0E77 /* RegisterPhoneViewController.swift */,
+				C6ABF61A280BF485002FE62D /* RegisterEmailViewController.swift */,
 				C69F65892807428E00097398 /* Main.storyboard */,
 				C69F658C2807428F00097398 /* Assets.xcassets */,
 				C69F658E2807428F00097398 /* LaunchScreen.storyboard */,
 				C69F65912807428F00097398 /* Info.plist */,
+				C6ABF61C280C654C002FE62D /* UItextfieldViewController.swift */,
+				C6ABF61D280C654C002FE62D /* UItextfieldViewController.xib */,
 			);
 			path = Kelassik;
 			sourceTree = "<group>";
@@ -125,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6ABF61F280C654C002FE62D /* UItextfieldViewController.xib in Resources */,
 				C69F65902807428F00097398 /* LaunchScreen.storyboard in Resources */,
 				C69F658D2807428F00097398 /* Assets.xcassets in Resources */,
 				C69F658B2807428E00097398 /* Main.storyboard in Resources */,
@@ -138,9 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C69F659C2808205300097398 /* FormStudentViewController.swift in Sources */,
+				C6BB3386280AD05F004C0E77 /* FormTeacherViewController.swift in Sources */,
 				C69F65882807428E00097398 /* ViewController.swift in Sources */,
 				C69F65842807428E00097398 /* AppDelegate.swift in Sources */,
+				C69F65982807506000097398 /* BerandaViewController.swift in Sources */,
+				C69F659A2807509300097398 /* LoginViewController.swift in Sources */,
+				C6ABF61E280C654C002FE62D /* UItextfieldViewController.swift in Sources */,
+				C6BB3388280B3DAD004C0E77 /* RegisterPhoneViewController.swift in Sources */,
 				C69F65862807428E00097398 /* SceneDelegate.swift in Sources */,
+				C6ABF61B280BF485002FE62D /* RegisterEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +354,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
